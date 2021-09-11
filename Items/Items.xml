@@ -87,7 +87,7 @@
         <ItemContainer capacity="10" canbeselected="true" hideitems="true" hudpos="0.5, 0.8" slotsperrow="5" uilabel="Output" allowuioverlap="true" />
     </Item>
 
-    <Item name="5 рублей" identifier="5rubles" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 5 советских рублей" useinhealthinterface="false" scale=".25" impactsoundtag="impact_soft">
+    <Item name="5 рублей" identifier="5rubles" maxstacksize="10" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 5 советских рублей" useinhealthinterface="false" scale=".25" impactsoundtag="impact_soft">
         <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <Price baseprice="5" soldeverywhere="true">
             <Price locationtype="outpost" multiplier="1" minavailable="100"/>
@@ -104,7 +104,7 @@
         </Holdable>
     </Item>
 
-    <Item name="10 рублей" identifier="10rubles" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 10 советских рублей" useinhealthinterface="false" scale=".25" impactsoundtag="impact_soft">
+    <Item name="10 рублей" identifier="10rubles" maxstacksize="10" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 10 советских рублей" useinhealthinterface="false" scale=".25" impactsoundtag="impact_soft">
         <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <Price baseprice="10" soldeverywhere="true">
             <Price locationtype="outpost" multiplier="1" minavailable="100"/>
@@ -132,7 +132,7 @@
         </Deconstruct>
     </Item>
 
-    <Item name="25 рублей" identifier="25rubles" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 25 советских рублей" useinhealthinterface="false" scale=".25" impactsoundtag="impact_soft">
+    <Item name="25 рублей" identifier="25rubles" maxstacksize="10" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 25 советских рублей" useinhealthinterface="false" scale=".25" impactsoundtag="impact_soft">
         <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <Price baseprice="20" soldeverywhere="true">
             <Price locationtype="outpost" multiplier="1" minavailable="100"/>
@@ -162,7 +162,7 @@
         </Deconstruct>
     </Item>
 
-    <Item name="50 рублей" identifier="50rubles" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 50 советских рублей" useinhealthinterface="false" scale=".25" impactsoundtag="impact_soft">
+    <Item name="50 рублей" identifier="50rubles" maxstacksize="10" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 50 советских рублей" useinhealthinterface="false" scale=".25" impactsoundtag="impact_soft">
         <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.15"/>
         <Price baseprice="50" soldeverywhere="true">
             <Price locationtype="outpost" multiplier="1" minavailable="100"/>
@@ -191,7 +191,7 @@
         </Deconstruct>
     </Item>
 
-    <Item name="100 рублей" identifier="100rubles" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 100 советских рублей" useinhealthinterface="false" scale=".25" impactsoundtag="impact_soft">
+    <Item name="100 рублей" identifier="100rubles" maxstacksize="10" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 100 советских рублей" useinhealthinterface="false" scale=".25" impactsoundtag="impact_soft">
         <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.15"/>
         <Price baseprice="100" soldeverywhere="true">
             <Price locationtype="outpost" multiplier="1" minavailable="100"/>
@@ -234,7 +234,7 @@
         <Body width="64" height="64" density="20" />
         <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
         </Holdable>
-        <ItemContainer capacity="20" keepopenwhenequipped="true" movableframe="true">
+        <ItemContainer capacity="5" keepopenwhenequipped="true" movableframe="true">
             <Containable items="currency" />
         </ItemContainer>
         <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />

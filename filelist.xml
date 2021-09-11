@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Soviet Currency" path="Mods/Zvezda Soviet Currency/filelist.xml" corepackage="false" gameversion="0.12.0.3" steamworkshopid="2428568256" installtime="1616095665">
+<contentpackage name="Zvezda Soviet Currency" path="Mods/Zvezda Soviet Currency/filelist.xml" corepackage="false" gameversion="0.14.9.1" steamworkshopid="2428568256" installtime="1631383942">
   <None file="Mods/Zvezda Soviet Currency/Items/atm.png" />
   <None file="Mods/Zvezda Soviet Currency/Items/currencyatlas.png" />
   <Item file="Mods/Zvezda Soviet Currency/Items/Items.xml" />

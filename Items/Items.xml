@@ -235,7 +235,7 @@
         <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
         </Holdable>
         <ItemContainer capacity="5" keepopenwhenequipped="true" movableframe="true">
-            <Containable items="currency,money" />
+            <Containable items="currency,money,idcard" />
         </ItemContainer>
         <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
     </Item>
